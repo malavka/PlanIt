@@ -28,10 +28,12 @@ const slideBackward = ()=>{
       {slideForward} />
       <img src={back_icon} alt="" className='back-btn' onClick=
       {slideBackward}/>
-      <div className="slider"></div>
+      <div className="slider">
+     
       <ul ref={slider}>
+      <div className="slide">
         <li>
-            <div className="slide">
+            
                 <div className="user-info">
                     <img src={user_1} alt='' />
                     <div>
@@ -47,10 +49,10 @@ const slideBackward = ()=>{
                 <p>Thank you, PlanIt, for making our wedding day unforgettable. 
                    We are beyond grateful for your dedication, expertise, and the heart you put into your work. 
                    We highly recommend them to anyone looking to bring their dream wedding to life!</p>
-            </div>
+            
         </li>
         <li>
-            <div className="slide">
+            
                 <div className="user-info">
                     <img src={user_2} alt='' />
                     <div>
@@ -68,10 +70,10 @@ const slideBackward = ()=>{
                    and the atmosphere fostered both camaraderie and relaxation. Working with PlanIt was a pleasure, 
                    and we will absolutely be reaching out to them for future events. They transformed our vision into an experience our team 
                    will remember for years!"</p>
-            </div>
+            
         </li>
         <li>
-            <div className="slide">
+            
                 <div className="user-info">
                     <img src={user_3} alt='' />
                     <div>
@@ -88,10 +90,10 @@ const slideBackward = ()=>{
                 <p>My wife was completely surprised and touched, and our guests couldn’t stop commenting on how beautiful and well-planned 
                    the night was. The team was incredibly friendly, responsive, and went above and beyond to bring my vision to life. I would 
                    wholeheartedly recommend PlanIt for anyone planning a special occasion—they truly know how to make memories that last!</p>
-            </div>
+            
         </li>
         <li>
-            <div className="slide">
+            
                 <div className="user-info">
                     <img src={user_4} alt='' />
                     <div>
@@ -108,9 +110,11 @@ const slideBackward = ()=>{
                    speaker lineup to the smoothly-run auction. Their attention to detail and commitment to making our vision a reality made a 
                    huge difference. Thanks to PlanIt, we had a successful night that exceeded our fundraising goals and left a lasting impression 
                    on our community.</p>
-            </div>
+            
         </li>
+        </div>
       </ul>
+      </div>
     </div>
   )
 }
