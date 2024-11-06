@@ -22,3 +22,20 @@
     margin: 10px auto 20px;
     line-height: 1.4;
 }
+.btn.explore-btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(25, 93, 25);
+    background-color: white; /* Dark background color */
+    
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.btn.explore-btn:hover {
+    background-color: transparent; /* Transparent background on hover */
+    color: #f7f7f7; /* Dark text on hover */
+    
+}

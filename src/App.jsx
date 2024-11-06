@@ -6,6 +6,9 @@ import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Events from './Components/Events/Events'
 import Testimonials from './Components/Testimonials/Testimonials'
+import Contact from './Components/Contact/contact'
+import Banner from './Components/Banner/Banner'
+import Footer from './Footer/Footer'
 
 const App = () => {
   return (
@@ -20,6 +23,11 @@ const App = () => {
          <Events/>
          <Title subTitle='Testimonial' title="Smooth Events, Happy Clients!" />
          <Testimonials/>
+         <Title subTitle='Contact' title='Get in touch!' />
+         <Contact/>
+         <Title subTitle='Banner' title='Around the Globe' />
+         <Banner/>
+         <Footer/>
       </div>  
     </div>
   )

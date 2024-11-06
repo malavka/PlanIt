@@ -12,7 +12,7 @@ nav{
     z-index: 10;
 }
 .logo{
-    width: 180px;
+    width: 100px;
 }
 nav ul li{
     display: inline-block;
@@ -21,6 +21,22 @@ nav ul li{
     font-size: 16px;
 }
 .dark-nav{
-    background: #075311;
+    background: #bfea91;
     transition: 0.5s;
+}
+.btn{
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(255,255,255,0); /* Dark background color */
+    
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: transparent; /* Transparent background on hover */
+    color: #f7f7f7; /* Dark text on hover */
 }

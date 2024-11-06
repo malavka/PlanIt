@@ -1,32 +1,54 @@
-.campus{
-    margin: 80px auto;
-    width: 90%;
-    text-align: center;
-}
-.gallery{
+/* src/components/Events.css */
+
+.events {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
+    padding: 20px;
 }
-.gallery img{
-    width: 23%;
-    border-radius: 10px;
+
+.gallery {
+    display: flex;
+    overflow-x: hidden; /* Hide overflow to create a clean sliding effect */
+    scroll-behavior: smooth;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px;
+    padding: 10px 0;
+    border-radius: 8px;
 }
-.btn{
-    background: #fff;
-    color: #212121;
-    padding: 14px 25px;
-    font-size: 16px;
-    border-radius: 30px;
-    cursor: pointer;
-    border: 0;
-    outline: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+
+.gallery-card {
+    width: 300px; /* Width of each card */
+    height: 400px;
+    margin: 0 10px;
+    flex: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s;
 }
-.btn.dark-btn{
-    background: #034b1f;
+
+.gallery-card:hover {
+    transform: scale(1.05); /* Slight scale-up on hover */
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.btn.dark-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
     color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn.dark-btn:hover {
+    background-color: #555;
 }
