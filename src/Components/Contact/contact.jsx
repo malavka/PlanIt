@@ -4,25 +4,6 @@ import './Contact.css';
 function Contact() {
   return (
     <div className="contact-container">
-      <div className="contact-details">
-        <h2>Contact Details</h2>
-        <p>Feel free to reach out through the contact form or find our contact information below. </p>
-          <p> Your feedback, questions and suggestions are important to us as we strive to provide 
-           exceptional service to our cusomers. We will be glad to become a part of your unique event</p>
-        
-        <div className="contact-info">
-          <div className="contact-item">
-            <span>📧</span> info@planitservices.in
-          </div>
-          <div className="contact-item">
-            <span>📞</span> +91 9778701470, +91 9188435489
-          </div>
-          <div className="contact-item">
-            <span>📍</span> DLF PHASE - 2 L-25/9, Near by Private Hospital, Gurugram, Haryana
-          </div>
-        </div>
-      </div>
-      
       <div className="form-container">
         <form>
           <label>Full Name</label>
@@ -62,6 +43,25 @@ function Contact() {
           <button type="submit">Submit</button>
         </form>
       </div>
+
+      <div className="contact-details">
+        <h2>Contact Details</h2>
+        <p>Feel free to reach out through the contact form or find our contact information below. </p>
+          <p> Your feedback, questions and suggestions are important to us as we strive to provide 
+           exceptional service to our cusomers. We will be glad to become a part of your unique event</p>
+        
+        <div className="contact-info">
+          <div className="contact-item">
+            <span>📧</span> info@planitservices.in
+          </div>
+          <div className="contact-item">
+            <span>📞</span> +91 9778701470, +91 9188435489
+          </div>
+          <div className="contact-item">
+            <span>📍</span> DLF PHASE - 2 L-25/9, Near by Private Hospital, Gurugram, Haryana
+          </div>
+        </div>
+      </div> 
     </div>
   );
 }

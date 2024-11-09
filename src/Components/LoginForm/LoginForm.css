@@ -1,0 +1,117 @@
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; /* Increased padding for navbar */
+    background-color: whitesmoke;
+    color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-logo img {
+    height: 60px; /* Adjusted logo size */
+    margin-right: 10px;
+}
+
+.navbar-logo span {
+    font-size: 28px; /* Increased font size */
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    font-size: 20px; /* Increased font size */
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px; /* Increase the width for a larger circle */
+    height: 500px; /* Increase the height to match */
+    border-radius: 50%;
+    background-color: #eed4b9a8; /* Dark circular background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    color: #fff;
+}
+
+.login-title {
+    font-size: 24px; /* Increase font size for better visibility */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%; /* Adjust width inside the larger circle */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px; /* Increase font size for readability */
+}
+
+input[type="email"],
+input[type="password"] {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+input::placeholder {
+    color: #555;
+}
+
+.error {
+    color: #ff6666;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-btn {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #531e1e;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px; /* Larger font size for the button */
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background-color: #701b1b;
+}

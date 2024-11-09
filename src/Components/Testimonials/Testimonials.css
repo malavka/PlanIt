@@ -1,46 +1,55 @@
-.testimonials{
+.testimonials {
     margin: 80px auto;
     padding: 0 80px;
     position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(255, 236, 230); /* Added background color */
+    border-radius: 8px; /* Optional: Adding rounded corners for a softer look */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.slider{
-    overflow:auto;
+.slider {
+    overflow: auto;
 }
-.slider ul{
-    
+
+.slider ul {
     width: 200%;
     overflow-x: hidden;
     transition: 0.5s;
-    
 }
-.slider ul li{
+
+.slider ul li {
     list-style: none;
     width: 50%;
     padding: 20px;
 }
-.slide{
+
+.slide {
     grid-gap: 50px;
-    display:flex;
-    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    display: flex;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     padding: 40px;
     border-radius: 10px;
-    color: #135f07;
+    color: rgb(19, 1, 6);
     line-height: 1.4;
 }
-.slide img{
+
+.slide img {
     width: 60px;
     border-radius: 25%;
     margin-right: 10px;
-    border: 2px solid #085626;
+    border: 2px solid #0b0a0b;
 }
-.user-info{
+
+.user-info {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    margin-left: 00px;
     font-size: 15px;
-
 }
-.user-info h3{
-    color: #0d4804;
+
+.user-info h3 {
+    color: #0b110a;
 }

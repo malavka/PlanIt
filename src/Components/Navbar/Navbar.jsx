@@ -1,30 +1,26 @@
-import React, { useEffect, useState } from 'react'
-import './Navbar.css'
-import logo from'../../assets/logo.png'
+import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
+    return (
+        <nav className="navbar">
+            <div className="navbar-left">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">EVENTS</a>
+            </div>
+            <div className="navbar-center">
+                <h1>PLANIT EVENTS & SERVICES</h1>
+            </div>
+            <div className="navbar-right">
+                <a href="#">TESTIMONIAL</a>
+                <a href="#">GALLERY</a>
+                <a href="#">CONTACT</a>
+                <div className="menu-icon">≡</div>
+            </div>
+        </nav>
+    );
+};
 
-    const [sticky, setSticky] = useState(false);
+export default Navbar;
 
-    useEffect(()=>{
-        window.addEventListener('scroll', ()=>{
-            window.scrollY > 500 ? setSticky(true) : setSticky(false);
-        })
-    },[]);
-
-  return (
-    <nav className={`container ${sticky? 'dark-nav' : ''}`}>
-      <img src={logo} alt="" className='logo'  /> 
-      <ul>
-        <li><button className='btn'>Home</button></li>
-        <li><button className='btn'>Programs</button></li>
-        <li><button className='btn'>About Us</button></li>
-        <li><button className='btn'>Bookings</button></li>
-        <li><button className='btn'>Testimonials</button></li>
-        <li><button className='btn'>Contact</button></li>
-      </ul>
-    </nav>
-  )
-}
-
-export default Navbar

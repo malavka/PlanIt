@@ -1,67 +1,75 @@
 .contact-container {
-    display: flex;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .contact-details {
-    flex: 1;
-    background-color: #f9cccc;
-    padding: 20px;
-    margin-right: 20px;
-    border-radius: 8px;
-    color: #333;
-  }
-  
-  .contact-details h2 {
-    margin-bottom: 10px;
-  }
-  
-  .contact-info {
-    margin-top: 20px;
-  }
-  
-  .contact-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 1.1em;
-  }
-  
-  .contact-item span {
-    margin-right: 10px;
-    font-size: 1.2em;
-  }
-  
-  .form-container {
-    flex: 1;
-    padding: 20px;
-    background-color: #f3f3f3;
-    border-radius: 8px;
-  }
-  
-  form label {
-    display: block;
-    margin: 10px 0 5px;
-  }
-  
-  form input, form select, form button {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-  }
-  
-  form button {
-    background-color: #ff8a8a;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  form button:hover {
-    background-color: #e07676;
-  }
-  
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  height: 100vh; /* Full viewport height */
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-details {
+  background-color: #000000;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+  color: #ffffff;
+  flex: 1;
+}
+
+.contact-details h2 {
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.contact-item span {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.form-container {
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  width: 100%; /* Ensures the form takes up all available space */
+  max-width: 600px; /* Limits the maximum width of the form */
+  margin: 0 20px; /* Adds gaps on the left and right */
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: rgb(146, 26, 64);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: rgb(199, 91, 122);
+}
+

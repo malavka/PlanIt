@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .about-left{
     flex-basis: 40%;
@@ -13,7 +14,8 @@
     flex-basis: 56%;
 }
 .about-img{
-    width: 100%;
+    width: 90%;
+    height: 600px;
     border-radius: 10px;
 }
 .play-icon{

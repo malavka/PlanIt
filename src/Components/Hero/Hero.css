@@ -1,7 +1,7 @@
 .hero{
     width: 100;
     min-height: 100vh;
-    background: linear-gradient(rgba(12, 58, 0, 0.7),rgba(12,58,0,0.7)), url('../../assets/hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(158, 116, 128, 0.7)), url('../../assets/hero.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -9,33 +9,41 @@
     align-items: center;
     justify-content: center;
 }
-.hero-text{
+  .hero-text {
     text-align: center;
-    max-width:  800px; ;
-}
-.hero-text h1{
-    font-size: 60;
+    color: whitesmoke;
+    max-width: 800px;
+  }
+  
+  .hero-text h1 {
+    font-size: 60px;
     font-weight: 600;
-}
-.hero-text p{
+  }
+  
+  .hero-text p {
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
-}
-.btn.explore-btn {
+  }
+  
+  .btn.explore-btn:hover {
     padding: 10px 25px;
     font-size: 16px;
     font-weight: bold;
-    color: rgb(25, 93, 25);
-    background-color: white; /* Dark background color */
-    
-    border-radius: 25px; /* Rounded corners */
+    color: rgb(2, 1, 1);
+    background-color: rgb(244, 244, 238);
+    border-radius: 25px;
     cursor: pointer;
-    transition: all 0.3s ease; /* Smooth transition */
-}
-
-.btn.explore-btn:hover {
-    background-color: transparent; /* Transparent background on hover */
-    color: #f7f7f7; /* Dark text on hover */
-    
-}
+    transition: all 0.3s ease;
+  }
+  
+  .btn.explore-btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #f1f1f1;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
